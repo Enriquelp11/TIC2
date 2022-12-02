@@ -1,0 +1,39 @@
+/*
+  Practica diaria 10
+  Enrique Lopez
+  Noviembre 10
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+@font-face {
+    font-family: "TextoEnrique";
+    src: url(../FUENTES/artificial_intelligence/ArtificialIntelligence_PERSONAL_USE_ONLY.otf);
+}
+header,footer{
+    background-color: brown;
+    color: white;
+    padding: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+}
+h1{
+    text-shadow: 5px 5px 1px black;
+}
+section{
+    box-shadow: 5px -5px 20px yellow;
+    font-family: TextoEnrique;
+    font-size: 25px;
+}
+main{
+    display: flex;
+}
+section{
+    margin: 20px 10px 20px 10px;
+}

@@ -1,0 +1,16 @@
+ /*
+    29 de Septiembre de 2022
+ */
+
+ body{
+    background-color: aqua;
+    border: black double 5px;
+    padding:20px;
+}
+h1{background-color: rgba(rgb(0, 255, 106), #1c0080, blue, alpha);}
+p{
+    background-color: beige;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0px 50px 0px 50px;
+}

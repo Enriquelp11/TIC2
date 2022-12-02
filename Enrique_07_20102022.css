@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+
+ol ol {
+    list-style-type: georgian;
+}
+
+.listadesordenada{
+    background-color: bisque;
+}
+.listaordenada{
+    background-color: cornflowerblue;
+}
+
+.listadefinicion{
+    background-color: darkgreen;
+}
+.CPU{
+    background-image: ;
+}
+.Placamadre{
+    background-image: ;
+}
+.case{
+    background-image: ;
+}
+.GPU{
+    background-image: ;
+}
+.Ram{
+    background-image: ;
+}
+.Dispositivoalmacenamiento{
+    background-image: ;
+}
+.refrigeracion{
+    background-image: ;
+}
+.PSU{
+    background-image: ;
+}
+.cables{
+    background-image: ;
+}
+.puertos{
+    background-image: ;
+}

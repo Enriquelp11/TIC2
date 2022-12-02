@@ -1,0 +1,44 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Img/htmlimgg.png);
+}
+nav{
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to top, black, white);
+    padding: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+.indice > a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.indice a:hover{
+    background-color: black;
+    color: white;
+}
+
+.indice a{
+    display: block;
+    width: 100%;
+}
+
+.indice{
+    width: 20%;
+}
+
+h1{
+    text-align: center;
+}

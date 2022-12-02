@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.roja{
+    background-color: gray;
+    width: 100%;
+    clear: both;
+}
+.naranja{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+}
+.rosa{
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+}
+.amarilla{
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+.azul{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+}
+.verde{
+    background-color: green;
+    width: 100%;
+    clear: both;
+}
+div{
+    padding: 150px;
+    float: right;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: auto;
+    margin: 0px;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 50%;
+    width: 60%;
+    transition: all 1s ease;
+}
+
+iframe:hover{
+    transform: scale(1,1) rotate(-5deg);
+}
