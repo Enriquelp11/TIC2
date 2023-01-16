@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    color: white;
+}
+
+header{
+    background-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+    background-image: url(./IMGproyectos/FOTO\ ENR.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid img{
+    width: 50%;
+    border: 3px solid white;
+    transform: all 0.5s ease;
+    border-style: solid;
+    border-color: black;
+    transition: all ease 1s;
+    float: left;
+}
+
+.grid img:hover{
+    transform: scale(0.9) rotate(15deg);
+}
+
+section{
+    width: 85%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+
+.listaordenada{
+    background-color: cornflowerblue;
+}
