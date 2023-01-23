@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elopase</title>
+    <link rel="stylesheet" href="./tiendaderopa.css">
+</head>
+<body>
+
+    <header>
+        <h1>Elopase</h1>
+        <p>La mejor pagina para encontrar las mejores prendas calidad/precio</p>
+    </header>
+    <!-- Menu principal-->
+    <nav id="Menu">
+        <a href="./tiendaderopa.html"><div class="rosa">Inicio</div></a>
+        <a href="#Servicios"><div class="naranja">Servicios</div></a>
+        <a href="./galeriadeimagenes.html"><div class="amarilla">Galeria</div></a>
+        <a href="#Contacto"><div class="azul">Contacto</div></a>
+    </nav>
+
+    <article>
+        <h2><u> Articulo de informacion </u></h2>
+        <section>
+            <h3><nav class="MenuH">
+                <a href="">Camisetas</a>
+            </nav></h3>
+            <p>De muy buena calidad,a la moda y a muy buen precio</p>
+            <div class="grid">
+                <img src="./IMGproyectos/Imagenpryt01.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt04.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt07.jpg" alt="Imagen">
+            </div>
+        </section>
+        <section>
+            <h3><nav class="MenuH">
+                <a href="">Sudaderas</a>
+            </nav></h3>
+            <p>De muy buena calidad,a la moda y a muy buen precio</p>
+            <div class="grid">
+                <img src="./IMGproyectos/Imagenpryt03.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt09.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt12.jpg" alt="Imagen">
+            </div>
+        </section>
+        <section>
+            <h3><nav class="MenuH">
+                <a href="">Zapatos</a>
+            </nav></h3>
+            <p>De muy buena calidad,a la moda y a muy buen precio</p>
+            <div class="grid">
+                <img src="./IMGproyectos/imagenpryt02.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt05.jpg" alt="Imagen">
+                <img src="./IMGproyectos/Imagenpryt08.jpg" alt="Imagen">
+            </div>
+        </section>
+        <!-- Secciones y Contenido-->
+        <section id="Servicios">
+            <h1>Servicios</h1>
+            <p>ATENCIÓN AL CLIENTE <br>
+            Dirección: Calle MDLR n970ª</p>
+            <a href="#Menu">Volver</a>
+        </section>
+        <section id="Contacto">
+            <h1>Contacto</h1>
+                <div class="linea"></div>
+                <form action="contact.php" method="post" class="formulario">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="fname">Nombre: </label>
+                        <input type="text" id="fname" name="fname" value="">
+                        <label for="lname">Apellidos</label>
+                        <input type="text" id="lname" name="lname" value="">
+                    </fieldset>
+                    <input type="email" placeholder="Correo electrónico" name="email">
+                    <input type="tel" placeholder="Teléfono" name="telefono">
+                    <textarea placeholder="Tu mensaje" rows="3" name="mensaje"></textarea>
+                    <select id="pais" name="paise">
+                        <option value="australia">España</option>
+                        <option value="canada">Italia</option>
+                        <option value="usa">Francia</option>
+                        <option value="usa">Otro</option>
+                    </select>
+                    <input type="submit" value="Enviar" src="https://www.google.es/">
+                </form>
+            <a href="#Menu">Volver</a>
+        </section>
+        <audio controls autoplay loop src="../PROYECTOS/IMGproyectos/The Seamphony - Arizona.mp3">
+            Tu navegador no puede reproducir la canción La Macarena
+        </audio>
+    </article>
+    <footer>
+        <p>Enrique López @2023</p>
+    </footer>
+</body>
+</html>
